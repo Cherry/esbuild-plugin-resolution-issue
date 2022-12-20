@@ -5,7 +5,7 @@
 
 This will succeed as it uses version `0.16.7`.
 
-- Run `npm i esbuild@0.16.7` or above to update `esbuild` to a version that fails
+- Run `npm i esbuild@0.16.8` or above to update `esbuild` to a version that fails
 
 This will fail with the following error:
 
