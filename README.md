@@ -1,7 +1,13 @@
+- esbuild issue: https://github.com/evanw/esbuild/issues/2762
+
 - Run `npm ci` to install dependencies
 - Run `npm run build` to build the project
 
-This will succeed with `esbuild` version `0.16.7` but fail with `0.16.8` and above with the following error:
+This will succeed as it uses version `0.16.7`.
+
+- Run `npm i esbuild@0.16.7` or above to update `esbuild` to a version that fails
+
+This will fail with the following error:
 
 ```
 Error: Build failed with 1 error:
